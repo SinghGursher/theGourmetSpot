@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #eaf7ff;
+    color: black;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px;
+    background-color: #05676e;
+}
+
+h1 {
+    font-family: "Edu AU VIC WA NT Hand", serif;
+    font-optical-sizing: auto;
+    font-size: 32;
+    font-weight: 100;
+    color: #eaf7ff;
+    font-style: normal;
+}
+
+.container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contactleft {
+    flex: 1;
+    text-align: left;
+}
+
+
+.contactleft p {
+    font-size: 16px;
+    padding: 5px 0px 15px 0;
+    margin: 10px 0 20px 0;
+}
+
+.socialIcons a {
+    color: #05676e;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contactright {
+    padding-top: 20px;
+    flex: 1;
+    text-align: right;
+}
+
+.contactright form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactright input,
+.contactright textarea {
+    width: 100%;
+    padding: 15px 25px 15px 25px;
+    margin: 5px 0;
+    border: 1px solid black;
+    background: transparent;
+    color: white;
+}
+
+.contactright .btn {
+    background: #05676e;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contactright .btn:hover {
+    background: #ff004f;
+}
+
+.contactleft p i {
+    color: #05676e;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #05676e;
+    color: #eaf7ff;
+    padding: 20px;
+    width: 100%;
+    position: absolute; 
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+
+.subtitle {
+    color: #05676e;
+    font-weight: 600;
+    font-size: 1.8em !important;
+}
